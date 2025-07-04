@@ -1,0 +1,18 @@
+# taking input from user
+a = input("Enter the fisrt number: ")
+b = input("Enter the second number: ")
+
+add = float(a) +float(b)
+print("The addition of ",a,"and",b,"is: ",add)
+sub = float(a) - float(b)
+print("The substraction of ",a,"and",b,"is: ",sub)
+mult = float(a) * float(b)
+print("The multiplition of ",a,"and",b,"is: ",mult)
+div = float(a) / float(b)
+print("The divition of ",a,"and",b,"is: ",div)
+mod = float(a) % float(b)
+print("The modules of ",a,"and",b,"is: ",mod)
+flr = float(a) // float(b)
+print("The flore of ",a,"and",b,"is: ",flr)
+expo = float(a) ** float(b)
+print("The exponential of ",a,"and",b,"is: ",expo)
